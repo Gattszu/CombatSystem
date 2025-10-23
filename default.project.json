@@ -1,0 +1,24 @@
+{
+  "name": "CombatSystem",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Modules": {
+        "$path": "src/modules"
+      }
+    },
+
+    "ServerScriptService": {
+      "Systems": {
+        "$path": "src/systems"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "src/client/starter_character"
+      }
+    }
+  }
+}
